@@ -27,6 +27,7 @@ Files
 -----
 • Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.0_2025-11-09_Letter_CC-BY.pdf
 • Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.0_2025-11-09_A4_CC-BY.pdf
+Download from https://github.com/maverick069/verifiable-voting/releases/tag/v1.3.0
 
 Citation
 --------
