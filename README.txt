@@ -1,5 +1,5 @@
 Verifiable Voting — Wheel + One‑Slot + Reusable Module
-Version: v1.3.0
+Version: v1.3.1
 License: CC BY 4.0
 Editors: Madhusudan Gopanna (primary), GPT‑5 Thinking (co‑author)
 
@@ -25,15 +25,14 @@ Key Ideas
 
 Files
 -----
-• Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.0_2025-11-09_Letter_CC-BY.pdf
-• Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.0_2025-11-09_A4_CC-BY.pdf
-Download from https://github.com/maverick069/verifiable-voting/releases/tag/v1.3.0
+• Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2025-11-12_Letter_CC-BY_full-with-diagrams.pdf
+Download from https://github.com/maverick069/verifiable-voting/releases/tag/v1.3.1
 
 Citation
 --------
 Gopanna, M. (primary) & GPT‑5 Thinking (co‑author).
 “Master Specification — India‑Scale End‑to‑End Verifiable Voting (Wheel + One‑Slot
-+ Reusable Module)”, v1.3.0, 2025‑11‑09. Licensed CC BY 4.0.
++ Reusable Module)”, v1.3.1, 2025‑11‑12. Licensed CC BY 4.0.
 
 Notes
 -----
