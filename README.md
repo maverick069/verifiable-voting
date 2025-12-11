@@ -96,5 +96,3 @@ Gopanna, M. (primary), & GPT-5 Thinking (co-author). "Master Specification — I
 - Diagrams are vector stroke-only for mobile compatibility; avoid fills.
 - Optional PV/hand-crank SKUs for power-scarce areas; default omits for cost/simplicity.
 - Change Log: See Appendix AB in PDF for version history.
-
-If this draft works, copy-paste into your repo's README.md. Need tweaks, code prototypes, or deeper analysis (e.g., crypto sims)? Let me know!
