@@ -56,6 +56,19 @@ For the full spec, download [Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_20
 | SP-8 VRF Verifiability                | Public proof of timing fairness.                |
 | SP-9 Booth-Binding Auditability       | Tamper-evident rebinds.                         |
 
+### Spec delta — Paper Trail (Designated Booths Only)
+- **Scope**: Only booths pre-earmarked for paper trail produce physical artifacts. All others remain paper-quiet.
+- **When to print**: At each batch close (per SWC rules) in an earmarked booth.
+- **What to print** (on one small slip):
+--- Batch Merkle Root (full) + short ID + optional QR.
+--- Prev Root (short) to show chaining.
+--- Counts per candidate for this batch (no vote/voter hashes).
+--- Header fields: Election ID, Constituency ID, Booth ID, Voter Machine ID, Batch ID, Window Label (SWC).
+--- Two officer signatures + one observer signature.
+--- What never appears on paper: No votehash list, no voterhash list, no per-ballot timestamps, no mappings of votehash → candidate.
+- **Chain-of-custody**: Affix slips to a single Daily Audit Sheet or store sequentially in a sealed envelope; record slip count in the booth log.
+- **Verification**: Anyone can scan the root QR or type the short ID to check it matches the public ledger; counts must match the batch’s posted proofs.
+
 ### Operational Aspects
 - **Capacity**: 1 vote/min per module; provision 3x max voters/hour.
 - **Telemetry**: Privacy-preserving metrics (uptime, queues, attestation); tripwires for outliers trigger fallback.
