@@ -18,7 +18,7 @@ Key features:
 
 The system resists powerful incumbents via statutory tripwires, real-time transparency, and multi-party oversight. Excludes remote/internet voting or postal logistics (though verifiable under same rules).
 
-For the full spec, download [Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2025-11-12_Letter_CC-BY_full-with-diagrams.pdf](releases/tag/v1.3.1).
+For the full spec, download [[Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2025-11-12_Letter_CC-BY_full-with-diagrams.pdf](https://github.com/maverick069/verifiable-voting/blob/main/Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2025-11-12_Letter_CC-BY_full-with-diagrams.pdf).
 
 ## Key Ideas
 
