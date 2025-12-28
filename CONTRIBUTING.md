@@ -96,7 +96,7 @@ This document explains **how** to propose changes, the **standards** we enforce,
 
 ## 9) Legal & Licensing
 
-- **Docs/specs/diagrams:** **CC BY 4.0** (attribution: *Gopanna, M. (primary), & GPT-5 Thinking (co-author). Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module), v1.3.1, 2025-11-12.*).
+- **Docs/specs/diagrams:** **CC BY 4.0** (attribution: *Gopanna, M. (primary), & GPT-5 Thinking (co-author). Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module), v1.4.0, 2025-12-28.*).
 - **Code:** If present, prefer **Apache-2.0** (state clearly in file headers). If you contribute code under a different permissive license (MIT/BSD-3), note it in the PR.
 - Ensure third-party assets are compatible; include LICENSE notices as needed.
 
@@ -135,7 +135,7 @@ If you believe you have found a vulnerability or a way to undermine ballot secre
 
 ## 13) Versioning
 
-- The spec uses **calendar-anchored semantic tags** (e.g., `v1.3.1_2025-11-12`).
+- The spec uses **calendar-anchored semantic tags** (e.g., `v1.4.0_2025-12-28`).
 - Any change altering security properties, batch format, or verification logic requires a **minor** bump at minimum.
 
 ---
@@ -151,7 +151,7 @@ If you believe you have found a vulnerability or a way to undermine ballot secre
 
 Cite the work as:
 
-> Gopanna, M. (primary), & GPT-5 Thinking (co-author). *Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module)*, v1.x.y, 2025-11-09+. CC BY 4.0.
+> Gopanna, M. (primary), & GPT-5 Thinking (co-author). *Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module)*, v1.4.0, 2025-12-28. CC BY 4.0.
 
 ---
 
