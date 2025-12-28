@@ -16,15 +16,15 @@ Key features:
 - **Accessibility**: Multiple SKUs (audio, visual-plus, haptic, off-grid) with identical exteriors; constant 60s cast time.
 - **Eco-Minimal Paper Trail**: Only designated booths print batch anchor slips (Merkle root QR/short ID, prev root, counts).
 
-The system resists powerful incumbents via statutory tripwires, real-time transparency, and multi-party oversight. Excludes remote/internet voting or postal logistics (though verifiable under same rules).
+The system resists powerful incumbents via statutory tripwires, real-time transparency, and multi-party oversight. Excludes remote/internet voting; postal logistics can be verified under the same rules but are out of scope here.
 
-For the full spec, download [[Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2025-11-12_Letter_CC-BY_full-with-diagrams.pdf](https://github.com/maverick069/verifiable-voting/blob/main/Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2025-11-12_Letter_CC-BY_full-with-diagrams.pdf).
+For the full spec, download [Master_Spec_Verifiable_Voting_v1.4.0_2025-12-28_CC-BY-4.0.pdf](https://github.com/maverick069/verifiable-voting/blob/main/Master_Spec_Verifiable_Voting_v1.4.0_2025-12-28_CC-BY-4.0.pdf).
 
 ## Key Ideas
 
 - **Hardware**: Voter Machine (wheel + one hooded slot), booth-bound reusable modules, charging/UV rack with N = 3 × M_v modules.
 - **Receipts**: Voterhash + votehash (printed or digital), used for inclusion check—no choice revealed.
-- **Ledger**: Public Bulletin Board with chained Merkle roots, threshold-signed by a consortium. Prevents operator discretion via VRF-Governed Sliding-Window Cadence (SWC).
+- **Ledger**: Public Bulletin Board with chained Merkle roots, threshold-signed by a consortium. Prevents operator discretion via **VRF-Governed Sliding-Window Cadence (SWC)**.
 - **Process**: Voter authorization at check-in; pick module, vote via wheel, confirm (2s hold); receipt issued; module resets.
 - **Audits**: Risk-Limiting Audits (RLA), attestation, telemetry tripwires (e.g., wait times, outliers).
 
@@ -38,10 +38,10 @@ For the full spec, download [[Master_Spec_Wheel_OneSlot_ReusableModules_v1.3.1_2
 - **Test Mode**: Voter-facing, constant-time (60s), no hashes generated; public counter.
 
 ### Cryptographic Elements
-- **Voterhash**: H(minute-key, device-secret, window nonce)—not linkable to identity.
+- **Voterhash**: H(minute-key, device-secret, window nonce) — not linkable to identity.
 - **Votehash**: H(voterhash, selection, device-secret, window).
 - **Batch Record**: {counts per candidate, voters:{voterhash...}, votes:{votehash...}}, randomized order, VRF proof, Merkle root chaining.
-- **VRF-SWC**: Selects window over 5-min bins (±2 min) based on prevRoot + beacon; zero operator choice; optional publication jitter.
+- **VRF-SWC**: Selects batch interval from a ±2 window over 5-minute centers using prevRoot + public beacon; zero operator choice; optional publication jitter.
 
 ### Security Properties
 |                Property               |                   Description                   |
@@ -100,12 +100,12 @@ For visuals, see page 5 of the PDF.
 Welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Focus on prototypes, simulations, or spec refinements. Follow code style: Python PEP8, Rust clippy.
 
 ## License
-Creative Commons CC BY 4.0 — reuse with attribution: "Gopanna, M. (primary), & GPT-5 Thinking (co-author). Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module), v1.3.1, 2025-11-12."
+Creative Commons CC BY 4.0 — reuse with attribution: "Gopanna, M. (primary), & GPT-5 Thinking (co-author). Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module), v1.4.0, 2025-12-28."
 
 ## Citation
-Gopanna, M. (primary), & GPT-5 Thinking (co-author). "Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module)", v1.3.1, 2025-11-12. License: CC BY 4.0.
+Gopanna, M. (primary), & GPT-5 Thinking (co-author). "Master Specification — India-Scale End-to-End Verifiable Voting (Wheel + One-Slot + Reusable Module)", v1.4.0, 2025-12-28. License: CC BY 4.0.
 
 ## Notes
 - Diagrams are vector stroke-only for mobile compatibility; avoid fills.
 - Optional PV/hand-crank SKUs for power-scarce areas; default omits for cost/simplicity.
-- Change Log: See Appendix AB in PDF for version history.
+- Change Log: See Appendix K in PDF for version history.
