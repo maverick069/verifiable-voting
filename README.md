@@ -20,7 +20,7 @@ Key features:
 The system resists powerful incumbents via statutory tripwires, real-time transparency, and multi-party oversight. Excludes remote/internet voting; postal logistics can be verified under the same rules but are out of scope here.
 
 For the full spec, download  
-**[Master_Spec_Verifiable_Voting_v1.4.1_2026-01-03_CC-BY-4.0.pdf](https://github.com/maverick069/verifiable-voting/blob/main/Master_Spec_Verifiable_Voting_v1.4.1_2026-01-03_CC-BY-4.0.pdf)**
+**[Master_Spec_Verifiable_Voting_v1.4.1_2026-01-03_CC-BY-4.0.pdf](https://github.com/maverick069/verifiable-voting/blob/main/Master_Spec_Verifiable_Voting_v1.4.1_2025-01-03_CC-BY-4.0.pdf)**
 
 *(Update the filename/path above to match the actual PDF in your repo.)*
 
